@@ -1,0 +1,129 @@
+.max-width{
+  max-width:1300 px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar{
+  position: top;
+  width: 100%;
+  height: -100%;
+  font-family: "Georgia", serif;
+  background-image: linear-gradient(#F2789F, #FEE3EC);
+  padding: 15px 0;
+}
+
+.navbar .max-width{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .title a{
+  color: #11324D;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a{
+  color:  #11324D;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;  
+}
+
+body{
+  background-image: url(https://image.freepik.com/free-vector/watercolor-pastel-sky-background_23-2148898824.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1{
+  font-family: "Georgia", serif;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+hr{
+  border-top: 15px dotted white;
+}
+
+h3{
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: white;
+  background-image: url(https://i.pinimg.com/originals/2e/59/a4/2e59a45889aa828e0e0da51691971655.jpg);
+  text-align: center;
+}
+
+.image1{
+  width: 170%;
+}
+
+.table1 p{
+  margin-left: 13em;
+  margin-right: 3em;
+  margin-bottom: 3em;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.table1 h3{
+  margin-left: 2em;
+  margin-top: .8em;
+}
+
+.image2{
+  width: 80%;
+}
+
+.table2 p{
+
+  margin-left: -15%;
+  margin-right: 3em;
+  margin-bottom: 3em;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.table2 h3{
+  margin-top: -30%;
+  margin-left: -23%;
+}
+
+.image3{
+  width: 170%;
+}
+
+.table3 p{
+  margin-left: 13em;
+  margin-right: 3em;
+  margin-bottom: 3em;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.image3{
+  width: 275%;
+}
+
+.table3 p{
+  margin-left: 30%;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.table3 h3{
+  margin-left: 4em;
+  margin-top: -.2em;
+}

@@ -1,0 +1,107 @@
+.max-width{
+  max-width:1300 px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar{
+  position: top;
+  width: 100%;
+  height: -100%;
+  font-family: "Georgia", serif;
+  background-image: linear-gradient(#F2789F, #FEE3EC);
+  padding: 15px 0;
+}
+
+.navbar .max-width{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .title a{
+  color: #11324D;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a{
+  color: #11324D;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;  
+}
+
+
+body{
+	background-image: url(https://i.pinimg.com/originals/3f/1b/00/3f1b001f619b72e38efb8f5db38f8c1a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	line-height: 100%;
+}
+
+h1{
+	font-family: "Georgia", serif;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	margin-top: 1em;
+}
+
+form{
+	background-image: linear-gradient(60deg, #FBC6A4, white, #FCFFA6, #F6AE99);
+	border-radius: 25px;
+	padding: 20px;
+	width: 600px;
+	height: 380px;
+	margin-left: 20em;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 300%;
+}
+
+label{
+	font-size: 20px;
+	font-family: "Georgia", serif;
+	font-style: ;
+}
+
+input{
+  padding: 10px 15px;
+  margin: 3px 0;
+  border: dotted 2px #11324D;
+  border-radius: 5px;
+  font-family: "Courier New", serif;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.name{
+	width: 50%;
+}
+
+.email{
+	width: 50%;
+}
+
+.message{
+	width: 100%;
+	height: 40%;
+	border-radius: 5px;
+}
+
+textarea{
+	margin-top: 5px;
+	border: dotted 2px #11324D;
+	border-radius: 5px;
+	font-family: "Courier New", serif;
+	font-size: 15px;
+}

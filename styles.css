@@ -1,0 +1,130 @@
+.max-width{
+  max-width:1300 px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar{
+  position: top;
+  width: 100%;
+  height: -100%;
+  font-family: "Georgia", serif;
+  background-image: linear-gradient(#C996CC, #916BBF, #3F3351);
+  padding: 15px 0;
+}
+
+.navbar .max-width{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .title a{
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a{
+  color:  white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;  
+}
+
+body{
+  background-image: url(https://i.pinimg.com/originals/7d/9a/4f/7d9a4f19cb2b48e4437c848ef2cd0833.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Helvetica", sans-serif;
+}
+
+img {
+  width: 280%;
+  border: 5px solid #716F81;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
+hr{
+  border-top: 15px dotted #716F81;
+}
+
+h1{
+  text-align: left;
+  font-family: "Georgia", serif;
+  font-size: 60px;
+  color: #11324D;
+  margin-left: 3.5em;
+}
+
+table{
+  margin-bottom: 3em;
+}
+
+.table1{
+    background-image: linear-gradient(60deg, #FCD1D1, #D1D9D9);
+}
+
+.table1 a{
+  text-decoration: none;
+}
+
+p{
+  font-family: "Courier New", monospace;
+  text-align: justify;
+  font: bolder;
+  margin-left: 10em;
+  margin-right: 10em;
+  line-height: 200%; 
+  width: 80%;
+  font-size: 20px;
+}
+
+h3{
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: white;
+  background-image: url(https://i.pinimg.com/originals/2e/59/a4/2e59a45889aa828e0e0da51691971655.jpg);
+  text-align: center;
+}
+
+UL { list-style-position: inside; 
+  margin-left: 2em;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  margin-left: 2em;
+  font-family: "Courier New", monospace;
+}
+
+th {
+  background-color: #716F81;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+}
+
+.table2{
+  margin-left: 13em;
+  font-size: 20px;
+  background-image: url(https://pbs.twimg.com/media/DwdihCDVAAECSMJ.jpg);
+}
+
+.table3{
+  margin-left: 23em;
+  font-size: 20px;
+  background-image: url(https://pbs.twimg.com/media/DwdihCDVAAECSMJ.jpg);
+}
